@@ -1,0 +1,23 @@
+{
+    "env": {
+        "browser": true,
+        "es6": true,
+        "jest": true,
+        "node": true
+    },
+    "extends": "eslint:recommended",
+    "parser": "babel-eslint",
+    "rules": {
+        "comma-dangle": ["error"],
+        "keyword-spacing": ["error"],
+        "quotes": ["error", "single"],
+        "react/jsx-uses-react": ["error"],
+        "react/jsx-uses-vars": ["error"],
+        "space-before-function-paren": ["error"],
+        "semi": ["error"],
+        "space-before-blocks": ["error"]
+    },
+    "plugins": [
+        "react"
+    ]
+}

@@ -3,6 +3,9 @@
   "version": "0.1.0",
   "description": "Yeoman generator for web projects using ES2015, webpack, React, Jest and Enzyme",
   "author": "Marc Hibbins",
+  "files": [
+    "app"
+  ],
   "keywords": [
     "yeoman-generator",
     "es2015",
